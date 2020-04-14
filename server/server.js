@@ -9,7 +9,7 @@ const MongoStore = require("connect-mongo")(session);
 const schema = require("./schema/schema");
 
 // Replace with your mongoLab URI
-const { MONGO_URI } = require("./config/index");
+const { MONGO_URI } = require("./config");
 
 // Create a new Express application
 const app = express();
